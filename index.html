@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./jscript.js" defer></script>
+</head>
+<body>
+    <h1>Etch-A-Sketch</h1>
+    <h3>Draw your imagination</h3>
+    <div id="buttonContainer">
+        <button class="sizeButton">Create new grid</button>
+        <button class="clearButton"> Clear grid</button>
+        <div class="radioBox">
+            <input type="radio" id="black" name="colorRadio" value="Black">
+            <label for="black">Black</label>
+            <input type="radio" id="colored" name="colorRadio" value="Random RGB Color">
+            <label for="colored">Random Color</label>
+            <input type="radio" id="eraser" name="colorRadio" value="Erase">
+            <label for="eraser">Erase</label>
+        </div>
+    </div>
+    <div id="container"></div>
+</body>
+</html>
